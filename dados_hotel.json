@@ -1,0 +1,102 @@
+{
+    "clientes": [
+        {
+            "nome": "Rodrigo Henry Dortha Manancas",
+            "documento": "045.892.312-09",
+            "telefone": "(91) 98812-3456",
+            "email": "rodrigo.manancas@email.com"
+        },
+        {
+            "nome": "Rodrigo Henry Dortha manancas",
+            "documento": "015015015015",
+            "telefone": "919915151515",
+            "email": ""
+        },
+        {
+            "nome": "Rafael matos",
+            "documento": "099099099",
+            "telefone": "099099099",
+            "email": ""
+        }
+    ],
+    "quartos": [
+        {
+            "numero": 101,
+            "tipo": "Solteiro",
+            "capacidade": 1,
+            "diaria_base": 150.0
+        },
+        {
+            "numero": 102,
+            "tipo": "Solteiro",
+            "capacidade": 1,
+            "diaria_base": 150.0
+        },
+        {
+            "numero": 201,
+            "tipo": "Casal",
+            "capacidade": 2,
+            "diaria_base": 240.0
+        },
+        {
+            "numero": 202,
+            "tipo": "Casal",
+            "capacidade": 2,
+            "diaria_base": 240.0
+        },
+        {
+            "numero": 301,
+            "tipo": "Suíte",
+            "capacidade": 4,
+            "diaria_base": 420.0
+        },
+        {
+            "numero": 209,
+            "tipo": "Solteiro",
+            "capacidade": 1,
+            "diaria_base": 150.0
+        }
+    ],
+    "reservas": [
+        {
+            "id_reserva": 1,
+            "cliente": {
+                "nome": "Rodrigo Henry Dortha Manancas",
+                "documento": "045.892.312-09",
+                "telefone": "(91) 98812-3456",
+                "email": "rodrigo.manancas@email.com"
+            },
+            "quarto": {
+                "numero": 201,
+                "tipo": "Casal",
+                "capacidade": 2,
+                "diaria_base": 240.0
+            },
+            "data_checkin": "20/11/2026",
+            "data_checkout": "24/11/2026",
+            "dias": 4,
+            "valor_total": 1060.0,
+            "status": "Ativa"
+        },
+        {
+            "id_reserva": 2,
+            "cliente": {
+                "nome": "Rafael matos",
+                "documento": "099099099",
+                "telefone": "099099099",
+                "email": ""
+            },
+            "quarto": {
+                "numero": 209,
+                "tipo": "Solteiro",
+                "capacidade": 1,
+                "diaria_base": 150.0
+            },
+            "data_checkin": "27/11/2026",
+            "data_checkout": "01/12/2026",
+            "dias": 4,
+            "valor_total": 600.0,
+            "status": "Ativa"
+        }
+    ]
+}
